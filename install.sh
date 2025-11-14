@@ -188,7 +188,7 @@ install_nvm() {
     
     # Add nvm to profile
     if [ "$current_shell" = "fish" ]; then
-        # Fish shell 配置
+        # Fish shell configuration
         local FISH_NVM_CONFIG='
 # NVM configuration for fish shell
 set -gx NVM_DIR "'${NVM_DIR}'"
@@ -209,7 +209,7 @@ end'
             log_info "Added nvm to ${PROFILE_FILE}"
         fi
     else
-        # Bash/Zsh 配置
+        # Bash/Zsh configuration
         local SOURCE_STR='
 export NVM_DIR="'${NVM_DIR}'"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
