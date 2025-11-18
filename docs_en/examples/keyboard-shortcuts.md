@@ -21,7 +21,7 @@ The following are the most commonly used basic shortcuts, recommended for priori
 | `Ctrl+C`  | Exit application (requires double confirmation) | End CLI session |
 | `Ctrl+D`  | Exit application when input is empty (requires double confirmation) | Quick exit from blank state |
 | `Ctrl+L`  | Clear screen | Clean screen when interface has too much content |
-| `Ctrl+S`  | Show complete response content, disable truncation | View full content of long responses |
+| `Ctrl+R`  | Show complete response content, disable truncation | View full content of long responses |
 | `Shift+Tab` / `Alt+M`  | Switch modes | Quickly switch between different working modes |
 
 ## Debug and Display Control
@@ -30,8 +30,8 @@ These shortcuts are used to control interface display and debugging features:
 
 | Shortcut | Function | Applicable Scenario |
 | -------- | -------- | -------- |
-| `Ctrl+O`  | Toggle debug console display | View detailed information during development debugging |
-| `Ctrl+T`  | Toggle tool description display | When you want to understand tool functionality |
+| `Ctrl+I`  | Toggle debug console display | View detailed information during development debugging |
+| `Ctrl+J`  | Toggle tool description display | When you want to understand tool functionality |
 | `Ctrl+Y`  | Toggle auto-approval mode (YOLO mode) | Use when trusting all tool calls |
 
 ## Input Editing Shortcuts
@@ -60,7 +60,7 @@ These shortcuts are used to control interface display and debugging features:
 
 | Shortcut | Function |
 | -------- | -------- |
-| `Ctrl+H` / `Backspace`  | Delete character to the left of cursor |
+| `Backspace`  | Delete character to the left of cursor |
 | `Ctrl+D` / `Delete`  | Delete character to the right of cursor |
 | `Ctrl+W` / `Meta+Backspace` / `Ctrl+Backspace`  | Delete word to the left of cursor |
 | `Meta+Delete` / `Ctrl+Delete`  | Delete word to the right of cursor |
@@ -72,8 +72,8 @@ These shortcuts are used to control interface display and debugging features:
 
 | Shortcut | Function | Usage Tips |
 | -------- | -------- | -------- |
-| `Up Arrow` / `Ctrl+P`  | Browse previous input history | Reuse previous commands |
-| `Down Arrow` / `Ctrl+N`  | Browse next input history | Navigate through history |
+| `Up Arrow`  | Browse previous input history | Reuse previous commands |
+| `Down Arrow`  | Browse next input history | Navigate through history |
 | `Ctrl+V`  | Paste clipboard content | Supports text and image pasting |
 | `Ctrl+X` / `Meta+Enter`  | Open current input in external editor | More convenient for editing long text |
 
@@ -104,7 +104,7 @@ Use in radio button interfaces:
 1. **Beginner Recommendation**: First master basic shortcuts like `Ctrl+C`, `Enter`, `Ctrl+L`
 2. **Efficiency Improvement**: Proficiently use `Tab` auto-completion and arrow key history features
 3. **Advanced Usage**: Combining `Ctrl+Y` auto-approval mode can accelerate workflows
-4. **Debugging Help**: Use `Ctrl+O` to view debugging information when encountering problems
+4. **Debugging Help**: Use `Ctrl+I` to view debugging information when encountering problems
 
 ## Special Notes
 
