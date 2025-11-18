@@ -4,8 +4,6 @@
 
 ![iFlow CLI Screenshot](./assets/iflow-cli.jpg)
 
-**English** | [中文](README_CN.md) | [日本語](README_JA.md) | [한국어](README_KO.md) | [Français](README_FR.md) | [Deutsch](README_DE.md) | [Español](README_ES.md) | [Русский](README_RU.md)
-
 iFlow CLI is a powerful AI assistant that runs directly in your terminal. It seamlessly analyzes code repositories, executes coding tasks, understands context-specific needs, and boosts productivity by automating everything from simple file operations to complex workflows.
 
 [More Tutorials](https://platform.iflow.cn/)
@@ -152,7 +150,7 @@ iflow
 
 The `/init` command scans your codebase, learns its structure, and creates an IFLOW.md file with comprehensive documentation.
 
-For a complete list of slash commands and usage instructions, see [here](./i18/en/commands.md).
+For a complete list of slash commands and usage instructions, see [here](./docs_en/features/slash-commands.md).
 
 ## 💡 Common Use Cases
 

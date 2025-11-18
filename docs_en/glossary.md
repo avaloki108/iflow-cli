@@ -151,7 +151,6 @@ sidebar_position: 99
 | Incorrect Usage | Correct Usage | Explanation |
 |-----------------|---------------|-------------|
 | Claude CLI | iFlow CLI | Correct product name |
-| 心流CLI | iFlow CLI | English name is more accurate |
 | MCP Plugin | MCP Server | Called servers, not plugins in MCP |
 | Agent | Sub Agent | Called sub agents in iFlow CLI |
 | Command Line Tool | Terminal AI Assistant | More accurate functional description |
