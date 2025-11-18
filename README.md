@@ -73,6 +73,17 @@ npm i -g @iflow-ai/iflow-cli
 
 This command automatically installs all necessary dependencies for your terminal.
 
+**Pop!_OS/Ubuntu/Debian Users (English Version)**:
+* Clean reinstall script (removes all existing installations and installs English-only version)
+```shell
+bash reinstall_english.sh
+```
+This script will:
+- Remove all existing iFlow CLI installations (npm, system packages, manual installations)
+- Install the English-only version of iFlow CLI
+- Configure npm to use the official npmjs.org registry
+- Optimize for Pop!_OS/Ubuntu/Debian systems
+
 **Windows Users**:
 1. Go to https://nodejs.org/en/download to download the latest Node.js installer
 2. Run the installer to install Node.js
@@ -94,6 +105,12 @@ If you are in China Mainland, you can use the following command to install iFlow
 ```shell
 npm uninstall -g @iflow-ai/iflow-cli
 ```
+
+For a comprehensive cleanup that removes all installations and configuration files, use the reinstall script:
+```shell
+bash reinstall_english.sh
+```
+This will prompt you before removing configuration directories.
 
 ## 🔑 Authentication
 
